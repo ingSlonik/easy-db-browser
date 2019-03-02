@@ -1,0 +1,40 @@
+{
+    "name": "easy-db-browser",
+    "version": "0.1.0",
+    "description": "Lite&easy database for browsers based on localStorage.",
+    "main": "./lib/index.js",
+    "types": "./lib/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "mocha -r ts-node/register tests/**/*.spec.ts",
+        "prepublish": "npm run build"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@types/chai": "^4.1.7",
+        "@types/mocha": "^5.2.6",
+        "@types/node": "^11.9.6",
+        "chai": "^4.2.0",
+        "mocha": "^5.2.0",
+        "ts-node": "^8.0.2",
+        "typescript": "^3.3.3333"
+    },
+    "dependencies": {
+        "easy-db-core": "^0.1.0"
+    },
+    "keywords": [
+        "easy&lite",
+        "browser",
+        "database",
+        "localStorage",
+        "TypeScript"
+    ],
+    "author": "Filip Paulů <ing.fenix@seznam.cz>",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ingSlonik/easy-db-browser.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ingSlonik/easy-db-browser/issues"
+    }
+}
